@@ -23,6 +23,8 @@ body, html {
     min-height: 100vh; /* Ensures the gradient always fills the page height */
 }
 
+
+
 /* --- Main Container --- */
 .container {
     width: 90%;
@@ -85,6 +87,22 @@ header.container {
 .highlight-pink { color: var(--pink-color); }
 .highlight-purple { color: var(--purple-color); }
 .bold-underline { font-weight: bold; text-decoration: underline; }
+
+/* --- Links --- */
+a {
+    color: var(--pink-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--purple-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--blue-color);
+}
 
 /* --- Main Content Blocks --- */
 main.container {
