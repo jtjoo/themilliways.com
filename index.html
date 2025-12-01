@@ -100,10 +100,13 @@
             <a href="mailto:me@themilliways.com">Email</a>
         </div>
         <a href="https://jtjoo.com" class="button-footer" data-en="Business Query" data-ko="비즈니스 문의">Business Query</a>
-        <p class="copyright" data-en="&copy; 2024 The Milliways (Jintae Joo). All rights reserved." data-ko="&copy; 2024 The Milliways (Jintae Joo). 모든 권리 보유.">&copy; 2024 The Milliways (Jintae Joo). All rights reserved.</p>
+        <p class="copyright" data-en="&copy; The Milliways (Jintae Joo). All rights reserved." data-ko="&copy; The Milliways (Jintae Joo). 모든 권리 보유."><span id="year"></span> © The Milliways (Jintae Joo). All rights reserved.</p>
     </footer>
 
     <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
         // Language toggle functionality
         const langOptions = document.querySelectorAll('.lang-option');
         let currentLang = localStorage.getItem('language') || 'en';
