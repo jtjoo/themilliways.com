@@ -24,6 +24,22 @@ body, html {
 }
 
 
+/* --- Links --- */
+a {
+    color: var(--pink-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--purple-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--blue-color);
+}
+
 
 /* --- Main Container --- */
 .container {
@@ -87,22 +103,6 @@ header.container {
 .highlight-pink, .highlight-pink a { color: var(--pink-color); }
 .highlight-purple, .highlight-purple a { color: var(--purple-color); }
 .bold-underline { font-weight: bold; text-decoration: underline; }
-
-/* --- Links --- */
-a {
-    color: var(--pink-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: var(--purple-color);
-    text-decoration: underline;
-}
-
-a:visited {
-    color: var(--blue-color);
-}
 
 /* --- Main Content Blocks --- */
 main.container {
