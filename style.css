@@ -82,10 +82,10 @@ header.container {
 }
 
 /* Text highlights from your original file */
-.highlight-yellow { color: var(--yellow-color); }
-.highlight-gray { color: var(--text-gray); }
-.highlight-pink { color: var(--pink-color); }
-.highlight-purple { color: var(--purple-color); }
+.highlight-yellow, .highlight-yellow a { color: var(--yellow-color); }
+.highlight-gray, .highlight-gray a { color: var(--text-gray); }
+.highlight-pink, .highlight-pink a { color: var(--pink-color); }
+.highlight-purple, .highlight-purple a { color: var(--purple-color); }
 .bold-underline { font-weight: bold; text-decoration: underline; }
 
 /* --- Links --- */
