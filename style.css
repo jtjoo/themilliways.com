@@ -26,18 +26,18 @@ body, html {
 
 /* --- Links --- */
 a {
-    color: var(--pink-color);
+    color: var(--pink-color) !important;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--purple-color);
+    color: var(--purple-color) !important;
     text-decoration: underline;
 }
 
 a:visited {
-    color: var(--blue-color);
+    color: var(--blue-color) !important;
 }
 
 
