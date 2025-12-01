@@ -98,10 +98,10 @@ header.container {
 }
 
 /* Text highlights from your original file */
-.highlight-yellow, .highlight-yellow a { color: var(--yellow-color); }
-.highlight-gray, .highlight-gray a { color: var(--text-gray); }
-.highlight-pink, .highlight-pink a { color: var(--pink-color); }
-.highlight-purple, .highlight-purple a { color: var(--purple-color); }
+.highlight-yellow, .highlight-yellow a { color: var(--yellow-color) !important; }
+.highlight-gray, .highlight-gray a { color: var(--text-gray) !important; }
+.highlight-pink, .highlight-pink a { color: var(--pink-color) !important; }
+.highlight-purple, .highlight-purple a { color: var(--purple-color) !important; }
 .bold-underline { font-weight: bold; text-decoration: underline; }
 
 /* --- Main Content Blocks --- */
