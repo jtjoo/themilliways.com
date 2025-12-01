@@ -90,7 +90,7 @@ header.container {
     font-style: italic;
     font-weight: 300;
     font-size: 1.15em; /* Was 19px */
-    color: var(--text-gray)
+    color: var(--text-gray);
     text-align: left;
     max-width: 750px; /* Makes long text easier to read */
     margin: 30px auto 0 auto;
