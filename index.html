@@ -19,7 +19,10 @@
 
     <!-- Language Toggle Button -->
     <div class="language-toggle">
-        <button id="lang-toggle" class="lang-button">KO / EN</button>
+        <div class="lang-toggle-widget">
+            <button class="lang-option lang-en active" data-lang="en">English</button>
+            <button class="lang-option lang-ko" data-lang="ko">한국어</button>
+        </div>
     </div>
 
     <header class="container">
@@ -102,18 +105,20 @@
 
     <script>
         // Language toggle functionality
-        const langToggle = document.getElementById('lang-toggle');
+        const langOptions = document.querySelectorAll('.lang-option');
         let currentLang = localStorage.getItem('language') || 'en';
 
         // Set initial language
         setLanguage(currentLang);
-        updateToggleButton();
+        updateToggleButtons();
 
-        langToggle.addEventListener('click', () => {
-            currentLang = currentLang === 'en' ? 'ko' : 'en';
-            localStorage.setItem('language', currentLang);
-            setLanguage(currentLang);
-            updateToggleButton();
+        langOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                currentLang = option.getAttribute('data-lang');
+                localStorage.setItem('language', currentLang);
+                setLanguage(currentLang);
+                updateToggleButtons();
+            });
         });
 
         function setLanguage(lang) {
@@ -131,8 +136,14 @@
             });
         }
 
-        function updateToggleButton() {
-            langToggle.textContent = currentLang === 'en' ? 'KO / EN' : 'EN / KO';
+        function updateToggleButtons() {
+            langOptions.forEach(option => {
+                if (option.getAttribute('data-lang') === currentLang) {
+                    option.classList.add('active');
+                } else {
+                    option.classList.remove('active');
+                }
+            });
         }
     </script>
 

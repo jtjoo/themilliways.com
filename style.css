@@ -26,33 +26,49 @@ body, html {
 
 /* --- Language Toggle --- */
 .language-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto 20px auto;
+    text-align: center;
 }
 
-.lang-button {
-    background-color: var(--pink-color);
-    color: var(--background-color);
+.lang-toggle-widget {
+    display: inline-flex;
+    background: rgba(201, 148, 254, 0.1);
+    border: 2px solid var(--purple-color);
+    border-radius: 25px;
+    padding: 4px;
+    gap: 0;
+    box-shadow: 0 4px 15px rgba(255, 86, 255, 0.15);
+}
+
+.lang-option {
+    flex: 1;
+    padding: 10px 24px;
     border: none;
-    padding: 10px 16px;
-    font-size: 0.9em;
+    background: transparent;
+    color: var(--text-gray);
+    font-size: 0.95em;
     font-weight: bold;
-    border-radius: 4px;
+    font-family: Verdana, sans-serif;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-family: Verdana, sans-serif;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
 }
 
-.lang-button:hover {
-    background-color: var(--purple-color);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(255, 86, 255, 0.3);
+.lang-option.active {
+    background: linear-gradient(135deg, var(--pink-color) 0%, var(--purple-color) 100%);
+    color: var(--background-color);
+    box-shadow: 0 4px 12px rgba(255, 86, 255, 0.3);
 }
 
-.lang-button:active {
-    transform: translateY(0);
+.lang-option:hover:not(.active) {
+    color: var(--pink-color);
+}
+
+.lang-option:active {
+    transform: scale(0.98);
 }
 
 /* --- Links --- */
