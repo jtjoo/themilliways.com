@@ -10,11 +10,11 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index-vite.html')
+        main: resolve(__dirname, 'index.html')
       }
     }
   },
   server: {
-    open: '/index-vite.html'
+    open: '/index.html'
   }
 })
