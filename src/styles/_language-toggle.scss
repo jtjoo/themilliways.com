@@ -1,0 +1,46 @@
+// Language Toggle Widget
+.language-toggle {
+  width: $container-width;
+  max-width: $container-max-width;
+  margin: 30px auto 20px auto;
+  text-align: center;
+}
+
+.lang-toggle-widget {
+  display: inline-flex;
+  background: rgba($purple-color, 0.1);
+  border: 2px solid $purple-color;
+  border-radius: $border-radius-pill;
+  padding: 4px;
+  gap: 0;
+  box-shadow: 0 4px 15px rgba($pink-color, 0.15);
+}
+
+.lang-option {
+  flex: 1;
+  padding: 10px 24px;
+  border: none;
+  background: transparent;
+  color: $text-gray;
+  font-size: 0.95em;
+  font-weight: bold;
+  font-family: $font-primary;
+  cursor: pointer;
+  transition: all $transition-normal;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+
+  &.active {
+    background: linear-gradient(135deg, $pink-color 0%, $purple-color 100%);
+    color: $background-color;
+    box-shadow: 0 4px 12px rgba($pink-color, 0.3);
+  }
+
+  &:hover:not(.active) {
+    color: $pink-color;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}

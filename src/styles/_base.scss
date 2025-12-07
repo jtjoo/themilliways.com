@@ -1,0 +1,48 @@
+// Base Styles
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: $font-primary;
+  background-color: $background-color;
+  color: $text-gray;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+// Container
+.container {
+  width: $container-width;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+// Links
+a {
+  color: $pink-color;
+  text-decoration: none;
+  transition: color $transition-normal;
+
+  &:hover {
+    color: $purple-color;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $blue-color;
+  }
+}
+
+// Images
+.responsive-image {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: $border-radius-md;
+}
