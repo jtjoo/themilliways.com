@@ -16,5 +16,8 @@ export default defineConfig({
   },
   server: {
     open: '/index.html'
+  },
+  preview: {
+    allowedHosts: ['themilliways.com']
   }
 })
