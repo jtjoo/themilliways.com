@@ -18,6 +18,7 @@ export default defineConfig({
     open: '/index.html'
   },
   preview: {
-    allowedHosts: ['themilliways.com']
+    allowedHosts: ['themilliways.com'],
+    open: false
   }
 })
