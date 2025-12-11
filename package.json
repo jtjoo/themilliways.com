@@ -1,6 +1,7 @@
 {
   "name": "themilliways-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "The Milliways - Jintae Joo's official website",
   "scripts": {
     "dev": "vite",

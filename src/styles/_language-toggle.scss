@@ -1,19 +1,21 @@
+@use "variables";
+
 // Language Toggle Widget
 .language-toggle {
-  width: $container-width;
-  max-width: $container-max-width;
+  width: variables.$container-width;
+  max-width: variables.$container-max-width;
   margin: 30px auto 20px auto;
   text-align: center;
 }
 
 .lang-toggle-widget {
   display: inline-flex;
-  background: rgba($purple-color, 0.1);
-  border: 2px solid $purple-color;
-  border-radius: $border-radius-pill;
+  background: rgba(variables.$purple-color, 0.1);
+  border: 2px solid variables.$purple-color;
+  border-radius: variables.$border-radius-pill;
   padding: 4px;
   gap: 0;
-  box-shadow: 0 4px 15px rgba($pink-color, 0.15);
+  box-shadow: 0 4px 15px rgba(variables.$pink-color, 0.15);
 }
 
 .lang-option {
@@ -21,23 +23,23 @@
   padding: 10px 24px;
   border: none;
   background: transparent;
-  color: $text-gray;
+  color: variables.$text-gray;
   font-size: 0.95em;
   font-weight: bold;
-  font-family: $font-primary;
+  font-family: variables.$font-primary;
   cursor: pointer;
-  transition: all $transition-normal;
+  transition: all variables.$transition-normal;
   border-radius: 20px;
   letter-spacing: 0.5px;
 
   &.active {
-    background: linear-gradient(135deg, $pink-color 0%, $purple-color 100%);
-    color: $background-color;
-    box-shadow: 0 4px 12px rgba($pink-color, 0.3);
+    background: linear-gradient(135deg, variables.$pink-color 0%, variables.$purple-color 100%);
+    color: variables.$background-color;
+    box-shadow: 0 4px 12px rgba(variables.$pink-color, 0.3);
   }
 
   &:hover:not(.active) {
-    color: $pink-color;
+    color: variables.$pink-color;
   }
 
   &:active {

@@ -11,7 +11,7 @@ export default function BandcampSection() {
         dangerouslySetInnerHTML={{ __html: t.bandcamp.subtitle }}
       />
       <a 
-        href="https://your-bandcamp-url.com" 
+        href="https://themilliwayskr.bandcamp.com" 
         className="button" 
         target="_blank"
         rel="noopener noreferrer"

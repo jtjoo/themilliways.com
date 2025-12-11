@@ -59,7 +59,7 @@ export const translations = {
       description: 'themilliways의 \'3rd Air\'는 인간의 시점에서 본 광활한 우주를 지칭한 표현이다. 우주를 통하여 탄생 이전의 아득히 먼 고요하고 평온한 기억을 찾아 떠나는 여정에서 인간의 기원, 존재의 의미를 찾아 떠난다는 스토리를 담고 있습니다.',
       button: '3rd air EP 듣기 & 구매!'
     },
-    bluesky: 'themilliways는 BlueSky에 있습니다🩵',
+    bluesky: '블루스카이에서도 themilliways를 만나보세요. 🩵',
     footer: {
       businessQuery: '비즈니스 문의',
       copyright: '© The Milliways (Jintae Joo). 모든 권리 보유.'

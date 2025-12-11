@@ -1,13 +1,15 @@
+@use "sass:meta";
+@use 'variables';
+
 // Tailwind CSS
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 // SCSS Partials
-@import 'variables';
-@import 'base';
-@import 'language-toggle';
-@import 'header';
-@import 'content';
-@import 'buttons';
-@import 'footer';
+@include meta.load-css('base');
+@include meta.load-css('language-toggle');
+@include meta.load-css('header');
+@include meta.load-css('content');
+@include meta.load-css('buttons');
+@include meta.load-css('footer');

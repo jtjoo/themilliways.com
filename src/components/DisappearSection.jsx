@@ -6,7 +6,7 @@ export default function DisappearSection() {
   return (
     <section className="content-block">
       <h3 className="disappear-title highlight-purple">{t.disappear.title}</h3>
-      <p className="text-text-gray">{t.disappear.date}</p>
+      <p className="disappear-title highlight-purple">{t.disappear.date}</p>
       <p className="text-description">{t.disappear.description}</p>
       <img 
         src="/images/disappear-art.jpg" 
