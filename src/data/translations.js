@@ -1,7 +1,7 @@
 export const translations = {
   en: {
-    tagline: "Alternative-rock based musician creates unique soundscapes inspired by ambient, experimental rock, shoegazing, and post-rock. Storytelling through music, exploring the origins of humanity and nature, the meaning of existence, venturing into mysterious realms.",
-    bio: `<span class='highlight-yellow'>themilliways</span>, as known as South Korean artist <span class='highlight-yellow'><a href='https://jtjoo.com'>Jintae Joo</a></span>, crafts emotive instrumental soundscapes that explore the depths of human experience. His debut single<span class='highlight-pink'> "3rd air"</span> launched on December 2021. The music featured on <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>Seotaiji</a></span>'s <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8th album Seotaiji 8th Atomos</a> teaser announcement video in 2008, <u>made over 200k music fans excited.</u> This venture follows Joo's two-decade journey as a composer and audio engineer in the Korean music industry. Drawing guitar play on his own style and innovative effects, <span class='highlight-yellow'>themilliways</span> pushes the boundaries of expressive sound and dare experiment, continues to translate complex emotions into captivating auditory journeys, inviting listeners to explore vast internal landscapes through the power of music.`,
+    tagline: "An experimental musician based on alternative and punk rock, inspired by ambient, shoegaze, and post-rock, venturing into mysterious realms in search of the origin of humanity and the meaning of existence.",
+    bio: `<span class='highlight-yellow'>themilliways</span>, known as artist <span class='highlight-yellow'><a href='https://jtjoo.com'>Jintae Joo</a></span>, crafts emotive instrumental soundscapes that explore the depths of human experience. His debut single <span class='highlight-pink'>"3rd air"</span> launched in December 2021. The music was featured on <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>Seotaiji</a></span>'s <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8th album Seotaiji 8th Atomos</a> teaser announcement video in 2008, <u>exciting over 200k music fans.</u> This project also represents his two-decade journey working in various roles in the Korean music industry. With his unique style of guitar playing, <span class='highlight-yellow'>themilliways</span> pushes the boundaries of sound and dares to experiment, continuously translating complex thoughts and emotions into captivating auditory journeys, inviting listeners to explore vast internal landscapes.`,
     disappear: {
       title: '"Disappear"',
       date: '2024.12.08.',
@@ -23,7 +23,7 @@ export const translations = {
     thirdAir: {
       title: 'Check out my debut EP "3rd air"',
       released: 'released on 2021.12.27',
-      description: '"3rd Air" by themilliways is a captivating single that delves into the vastness of space from a human perspective. The title refers to the expansive space beyond the atmosphere, symbolizing a journey through the cosmos. The music aims to evoke a sense of serene tranquility, reminiscent of distant memories before birth.',
+      description: '"3rd Air" by themilliways refers to the vast universe from a human perspective. It tells the story of a journey through space, seeking distant, serene, and tranquil memories from before birth—searching for the origin of humanity and the meaning of existence.',
       button: 'Listen & Buy 3rd air EP!'
     },
     bluesky: 'themilliways is on BlueSky🩵',
@@ -34,7 +34,7 @@ export const translations = {
   },
   ko: {
     tagline: "얼터너티브 록을 기반으로 앰비언트, 슈게이징, 포스트 록에서 영감을 받은 장르의 실험적인 음악가로 인간의 기원, 존재의 의미를 찾아 신비로운 세계로 나아갑니다.",
-    bio: `<span class='highlight-yellow'>themilliways</span>로 알려진 아티스트 <span class='highlight-yellow'><a href='https://jtjoo.com'>주진태</a></span>는 인간의 경험의 깊이를 탐구하는 감정적인 인스트루멘탈 사운드스케이프를 만듭니다. 그의 데뷔 싱글 <span class='highlight-pink'>"3rd air"</span>는 2021년 12월에 출시되었습니다. 이 음악은 2008년 <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>서태지</a></span>의 <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8집 Seotaiji 8th Atomos</a> 티저 공개 영상에 수록되어 <u>20만 명 이상의 음악 팬들을 흥분시켰습니다.</u> 이 프로젝트는 한국 음악 산업에서 작곡가이자 오디오 엔지니어로 활동해온 주의 20년 여정을 따릅니다. 자신만의 스타일과 혁신적인 이펙트를 활용한 기타 연주로 <span class='highlight-yellow'>themilliways</span>는 표현적인 사운드의 경계를 밀어붙이고 실험을 감행하며, 계속해서 복잡한 감정들을 매혹적인 청각적 여정으로 번역하고, 음악의 힘을 통해 청자들이 광활한 내부 풍경을 탐험하도록 초대합니다.`,
+    bio: `<span class='highlight-yellow'>themilliways</span>로 알려진 아티스트 <span class='highlight-yellow'><a href='https://jtjoo.com'>주진태</a></span>는 인간의 경험의 깊이를 탐구하는 감정적인 인스트루멘탈 사운드스케이프를 만듭니다. 그의 데뷔 싱글 <span class='highlight-pink'>"3rd air"</span>는 2021년 12월에 출시되었습니다. 이 음악은 2008년 <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>서태지</a></span>의 <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8집 Seotaiji 8th Atomos</a> 티저 공개 영상에 수록되어 <u>20만 명 이상의 음악 팬들을 흥분시켰습니다.</u> 이 프로젝트는 한국 음악 산업에서 다양한 역할로 활동해온 20여년 여정을 대표하기도 합니다. 고유한 스타일의 기타 연주로 <span class='highlight-yellow'>themilliways</span>는 사운드의 경계를 밀어붙이고 실험을 감행하며, 계속해서 복잡한 생각과 감정들을 매혹적인 청각적 여정으로 전환하여, 청자들이 광활한 내면 세계를 탐험하도록 초대합니다.`,
     disappear: {
       title: '"Disappear"',
       date: '2024.12.08.',
