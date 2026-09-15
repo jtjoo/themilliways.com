@@ -48,3 +48,11 @@ a {
   height: auto;
   border-radius: variables.$border-radius-md;
 }
+
+.original-size {
+  display: block;
+  margin: 15px auto;
+  max-width: 500px;
+  height: auto;
+  border-radius: variables.$border-radius-md;
+}

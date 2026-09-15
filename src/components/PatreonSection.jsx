@@ -9,7 +9,7 @@ export default function PatreonSection() {
         <img 
           src="/images/patreon-banner.png" 
           alt="Patreon Banner" 
-          className="responsive-image max-w-[500px]"
+          className="original-size"
         />
       </a>
       <p className="patreon-title">{t.patreon.title}</p>

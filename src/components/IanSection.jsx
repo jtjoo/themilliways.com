@@ -11,7 +11,7 @@ export default function IanSection() {
       <img 
         src="/images/specialepian-art.jpg" 
         alt="Album art for Ian" 
-        className="responsive-image max-w-[400px]"
+          className="original-size"
       />
       <a 
         href="https://distrokid.com/hyperfollow/themilliways/ian" 

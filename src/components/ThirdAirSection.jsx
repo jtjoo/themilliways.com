@@ -10,7 +10,7 @@ export default function ThirdAirSection() {
         <img 
           src="/images/3rd-air-art.png" 
           alt="Album art for 3rd air" 
-          className="responsive-image max-w-[450px]"
+          className="original-size"
         />
       </a>
       <p className="text-text-gray">{t.thirdAir.released}</p>

@@ -9,7 +9,7 @@ export default function SubvertSection() {
         <img 
           src="/images/subvert.png" 
           alt="Subvert themilliways" 
-          className="responsive-image max-w-[500px]"
+          className="original-size"
         />
       </a>
       <p className="subvert-title">{t.subvert.title}</p>
