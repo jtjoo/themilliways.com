@@ -1,6 +1,7 @@
 import { LanguageProvider } from './context/LanguageContext';
 import LanguageToggle from './components/LanguageToggle';
 import Header from './components/Header';
+import SubvertSection from './components/SubvertSection';
 import DisappearSection from './components/DisappearSection';
 import ThirdAirSection from './components/ThirdAirSection';
 import IanSection from './components/IanSection';
@@ -16,6 +17,7 @@ function App() {
       <LanguageToggle />
       <Header />
       <main className="container">
+        <SubvertSection />
         <DisappearSection />
         <IanSection />
         <ThirdAirSection />

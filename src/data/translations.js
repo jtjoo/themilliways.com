@@ -2,6 +2,10 @@ export const translations = {
   en: {
     tagline: "An experimental musician based on alternative and punk rock, inspired by ambient, shoegaze, and post-rock, venturing into mysterious realms in search of the origin of humanity and the meaning of existence.",
     bio: `<span class='highlight-yellow'>themilliways</span>, known as artist <span class='highlight-yellow'><a href='https://jtjoo.com'>Jintae Joo</a></span>, crafts emotive instrumental soundscapes that explore the depths of human experience. His debut single <span class='highlight-pink'>"3rd air"</span> launched in December 2021. The music was featured on <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>Seotaiji</a></span>'s <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8th album Seotaiji 8th Atomos</a> teaser announcement video in 2008, <u>exciting over 200k music fans.</u> This project also represents his two-decade journey working in various roles in the Korean music industry. With his unique style of guitar playing, <span class='highlight-yellow'>themilliways</span> pushes the boundaries of sound and dares to experiment, continuously translating complex thoughts and emotions into captivating auditory journeys, inviting listeners to explore vast internal landscapes.`,
+    subvert: {
+      title: "themilliways is available on Subvert!",
+      description: "Subvert is made from artist, run by artist platform. For more info visit <span class='highlight-yellow'><a href='https://subvert.fm' target='_blank'>Subvert Website</a></span> to find out what it is for. Or you can dig it on <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>Wikipedia</a>. I have joined this when it started as alpha last year (2025) and now I made my profile here! You can buy my album at here, it supports me even better than Bandcamp! My next releases will be sold here first, so make sure follow me on Subvert!"
+    },
     disappear: {
       title: '"Disappear"',
       date: '2024.12.08.',
@@ -46,6 +50,10 @@ export const translations = {
       date: '2024.12.08.',
       description: 'Disappear는 인생에서 매우 어려운 시간을 보내고 있었을 때 쓴 곡입니다. 제목 그대로 이 세상에서 사라지고 싶은 감정을 담았습니다. \'3rd air\'를 발매한 후 공허함에 방황하던 와중에, 어느 날 기타를 집어 들고 느끼는 대로 연주했습니다. 우울감, 불안감, 외로움, 그리고 희망에 대한 감정이 담겨있는 곡입니다.',
       listenNow: '지금 듣기'
+    },
+    subvert: {
+      title: "더 밀리웨이스 Subvert에 입성!",
+      description: "Subvert는 예술가들이 만들었고, 예술가들이 운영하는 음악 플랫폼입니다. 자세한 정보는 <span class='highlight-yellow'><a href='https://subvert.fm' target='_blank'>Subvert 홈페이지</a></span>를 참조하시기 바랍니다. (영문입니다) 혹은 <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>위키피디아</a> 정보를 참조하세요. 작년에 Subvert 라는 플랫폼이 생긴다는 소식을 듣고 알파 단계에 가입하여 올해 드디어 제 아티스트 프로필을 개설했습니다! 밴드캠프와 달리 수수료가 없어 저에게 더 공정한 가격으로 음반을 구매하실 수 있습니다. 앞으로 Subvert 에서 음원 등을 선공개할 예정이니 많이 이용해주시기 바랍니다."
     },
     thirdAir: {
       title: '데뷔 EP "3rd air"',

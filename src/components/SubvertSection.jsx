@@ -1,0 +1,27 @@
+import { useLanguage } from '../context/LanguageContext';
+
+export default function SubvertSection() {
+  const { t } = useLanguage();
+
+  return (
+    <section className="content-block">
+      <a href="https://subvert.fm/themilliways" target="_blank" rel="noopener noreferrer">
+        <img 
+          src="/images/subvert.png" 
+          alt="Subvert themilliways" 
+          className="responsive-image max-w-[500px]"
+        />
+      </a>
+      <p className="subvert-title">{t.subvert.title}</p>
+      <p className="subvert-description">{t.subvert.description}</p>
+      <a 
+        href="https://subvert.fm/themilliways" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="subvert-link block"
+      >
+        https://www.subvert.fm/themilliways
+      </a>
+    </section>
+  );
+}
