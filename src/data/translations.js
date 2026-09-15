@@ -4,7 +4,7 @@ export const translations = {
     bio: `<span class='highlight-yellow'>themilliways</span>, known as artist <span class='highlight-yellow'><a href='https://jtjoo.com'>Jintae Joo</a></span>, crafts emotive instrumental soundscapes that explore the depths of human experience. His debut single <span class='highlight-pink'>"3rd air"</span> launched in December 2021. The music was featured on <span class='highlight-yellow'><a href='https://en.wikipedia.org/wiki/Seo_Taiji'>Seotaiji</a></span>'s <a href='https://en.wikipedia.org/wiki/Seo_Taiji#2008%E2%80%932009:_8th_Atomos'>8th album Seotaiji 8th Atomos</a> teaser announcement video in 2008, <u>exciting over 200k music fans.</u> This project also represents his two-decade journey working in various roles in the Korean music industry. With his unique style of guitar playing, <span class='highlight-yellow'>themilliways</span> pushes the boundaries of sound and dares to experiment, continuously translating complex thoughts and emotions into captivating auditory journeys, inviting listeners to explore vast internal landscapes.`,
     subvert: {
       title: "themilliways is available on Subvert!",
-      description: "Subvert is made from artist, run by artist platform. For more info visit <span class='highlight-yellow'><a href='https://subvert.fm' target='_blank'>Subvert Website</a></span> to find out what it is for. Or you can dig it on <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>Wikipedia</a>. I have joined this when it started as alpha last year (2025) and now I made my profile here! You can buy my album at here, it supports me even better than Bandcamp! My next releases will be sold here first, so make sure follow me on Subvert!"
+      description: "Subvert is made from artist, run by artist platform. For more info, visit <span class='highlight-purple'><a href='https://subvert.fm' target='_blank'>Subvert Website</a></span> to find out what it is for. Or you can dig it on <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>Wikipedia</a>. I have joined this when it started as alpha last year (2025) and now I made my profile here! You can buy my album at here, it supports me even better than Bandcamp! My next releases will be sold here first, so make sure follow me on Subvert!"
     },
     disappear: {
       title: '"Disappear"',
@@ -27,7 +27,7 @@ export const translations = {
     bandcamp: {
       title: 'Follow me on Bandcamp',
       subtitle: 'Buy <span class="bold-underline">High-Quality</span> audio files and <span class="bold-underline">Physical Mediums</span>!',
-      link: '// Bandcamp Link //'
+      link: 'Bandcamp Link'
     },
     patreon: {
       title: 'Join the great journey together!'
@@ -53,7 +53,7 @@ export const translations = {
     },
     subvert: {
       title: "더 밀리웨이스 Subvert에 입성!",
-      description: "Subvert는 예술가들이 만들었고, 예술가들이 운영하는 음악 플랫폼입니다. 자세한 정보는 <span class='highlight-yellow'><a href='https://subvert.fm' target='_blank'>Subvert 홈페이지</a></span>를 참조하시기 바랍니다. (영문입니다) 혹은 <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>위키피디아</a> 정보를 참조하세요. 작년에 Subvert 라는 플랫폼이 생긴다는 소식을 듣고 알파 단계에 가입하여 올해 드디어 제 아티스트 프로필을 개설했습니다! 밴드캠프와 달리 수수료가 없어 저에게 더 공정한 가격으로 음반을 구매하실 수 있습니다. 앞으로 Subvert 에서 음원 등을 선공개할 예정이니 많이 이용해주시기 바랍니다."
+      description: "Subvert는 예술가들이 만들었고, 예술가들이 운영하는 음악 플랫폼입니다. 자세한 정보는 <span class='highlight-yellow'><a href='https://subvert.fm' target='_blank'>Subvert 홈페이지</a></span>를 참조하시기 바랍니다. (영문입니다) 혹은 <a href='https://en.wikipedia.org/wiki/Subvert_(music_marketplace)' target='_blank'>위키피디아</a> 정보를 참조하세요. 작년에 Subvert 라는 플랫폼이 생긴다는 소식을 듣고 알파 단계에 가입하여 올해 드디어 제 아티스트 프로필을 개설했습니다! 밴드캠프와 달리 수수료가 없어 저에게 더 공정한 가격으로 음반을 구매하실 수 있습니다. 앞으로 Subvert 에서 음원 등을 선공개할 예정이니 많이 이용해주시기 바랍니다!"
     },
     thirdAir: {
       title: '데뷔 EP "3rd air"',

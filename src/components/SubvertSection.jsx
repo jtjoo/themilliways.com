@@ -13,7 +13,7 @@ export default function SubvertSection() {
         />
       </a>
       <p className="subvert-title">{t.subvert.title}</p>
-      <p className="subvert-description">{t.subvert.description}</p>
+      <p className="subvert-description" dangerouslySetInnerHTML={{ __html: t.subvert.description }} />
       <a 
         href="https://subvert.fm/themilliways" 
         target="_blank" 
